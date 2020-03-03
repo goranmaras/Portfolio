@@ -31,4 +31,8 @@ $(document).ready(function() {
     easing: "ease",
     duration: 1200
   });
+
+  setTimeout(function() {
+    $("body").addClass("loaded");
+  }, 2000);
 });
